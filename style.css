@@ -1,0 +1,78 @@
+*{
+    overflow: hidden;
+    padding: 0px ;
+    margin: 0px ;
+    text-decoration: none;
+  
+}
+body{
+  background-color: rgb(62, 62, 93);
+}
+#img-1{
+    width: 80px;
+    height: 80px;
+}
+.parent-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    /* height: 200px; */
+
+
+}
+/* #heading{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   float: inline-start;
+} */
+
+.logo-side{
+    color: white;
+    display: block;
+   text-align: center;
+}
+.hero-div, ul {
+display: flex;
+
+
+}
+.hero-div {
+    padding: 20px;
+  color: whitesmoke;
+
+   
+  
+}
+a{
+    color: whitesmoke;
+}
+ul li{
+    padding: 20px;
+}
+
+.logo{
+    float: inline-start;
+
+}
+.logo-edit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+}
+.logo-edit2{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 19px;
+   background: linear-gradient(90deg, #D854D9, #D69AEE);
+   height: 40px;
+   width: 200px;
+   border-radius: 3px;
+   margin-bottom:10px ;
+   margin-top: ;
+}
