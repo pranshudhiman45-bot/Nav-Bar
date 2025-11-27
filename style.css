@@ -1,18 +1,21 @@
-*{
+* {
     overflow: hidden;
-    padding: 0px ;
-    margin: 0px ;
+    padding: 0px;
+    margin: 0px;
     text-decoration: none;
-  
+
 }
-body{
-  background-color: rgb(62, 62, 93);
+
+body {
+    background-color: rgb(62, 62, 93);
 }
-#img-1{
+
+#img-1 {
     width: 80px;
     height: 80px;
 }
-.parent-div{
+
+.parent-div {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,6 +24,7 @@ body{
 
 
 }
+
 /* #heading{
    display: flex;
    justify-content: center;
@@ -28,51 +32,58 @@ body{
    float: inline-start;
 } */
 
-.logo-side{
+.logo-side {
     color: white;
     display: block;
-   text-align: center;
+    text-align: center;
 }
-.hero-div, ul {
-display: flex;
+
+.hero-div,
+ul {
+    display: flex;
 
 
 }
+
 .hero-div {
     padding: 20px;
-  color: whitesmoke;
+    color: whitesmoke;
 
-   
-  
+
+
 }
-a{
+
+a {
     color: whitesmoke;
 }
-ul li{
+
+ul li {
     padding: 20px;
 }
 
-.logo{
+.logo {
     float: inline-start;
 
 }
-.logo-edit{
+
+.logo-edit {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
     font-size: 18px;
 }
-.logo-edit2{
-     display: flex;
+
+.logo-edit2 {
+    display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
     font-size: 19px;
-   background: linear-gradient(90deg, #D854D9, #D69AEE);
-   height: 40px;
-   width: 200px;
-   border-radius: 3px;
-   margin-bottom:10px ;
-  
+    background: linear-gradient(90deg, #D854D9, #D69AEE);
+    height: 40px;
+    width: 200px;
+    border-radius: 3px;
+    margin-top: -11px;
+
 }
